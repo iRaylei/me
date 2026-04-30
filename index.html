@@ -3,131 +3,244 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>我的个人品牌</title>
+  <title>雷世民 · 脑手心三合一 AI 企业培训师</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <!-- 导航栏 -->
-  <nav class="navbar">
+  <nav class="navbar" id="navbar">
     <div class="nav-inner">
-      <span class="logo">Your Name</span>
+      <span class="logo">雷世民 · Ray</span>
       <ul class="nav-links">
-        <li><a href="#about">关于我</a></li>
-        <li><a href="#services">服务</a></li>
+        <li><a href="#pillars">脑手心</a></li>
+        <li><a href="#quadrant">能力象限</a></li>
+        <li><a href="#compare">价值对比</a></li>
         <li><a href="#contact">联系</a></li>
       </ul>
+      <button class="nav-toggle" aria-label="menu">☰</button>
     </div>
   </nav>
 
-  <!-- 首页 Hero -->
+  <!-- Hero -->
   <header class="hero" id="home">
     <div class="hero-content">
-      <p class="hero-tag">个人品牌 · Personal Brand</p>
-      <h1>你好，我是<br /><span class="accent">Your Name</span></h1>
-      <p class="hero-sub">设计师 / 开发者 / 创造者</p>
-      <a href="#contact" class="btn">与我合作</a>
+      <p class="hero-tag">企业AI转型 · 落地实践</p>
+      <h1>脑手心三合一<br /><span class="accent">AI 企业培训师</span></h1>
+      <p class="hero-name">雷世民 · Ray &nbsp;|&nbsp; 159 5803 7997</p>
+      <div class="hero-tags">
+        <span>多行业软件产品设计师</span>
+        <span class="dot">◆</span>
+        <span>AI 转型实践派</span>
+        <span class="dot">◆</span>
+        <span>变革成长引导师</span>
+      </div>
+      <div class="hero-avatar">
+        <img src="https://avatars.githubusercontent.com/u/4446405?v=4" alt="雷世民" />
+      </div>
+      <a href="#contact" class="btn">预约合作</a>
     </div>
   </header>
 
-  <!-- 关于我 -->
-  <section class="section" id="about">
+  <!-- 脑手心三大支柱 -->
+  <section class="section" id="pillars">
     <div class="container">
-      <h2 class="section-title">关于我</h2>
-      <div class="about-grid">
-        <div class="about-avatar">
-          <div class="avatar-placeholder">YN</div>
+      <h2 class="section-title">三合一核心能力</h2>
+      <p class="section-sub">脑 · 手 · 心，缺一不可的 AI 培训师生态位</p>
+
+      <!-- 脑 -->
+      <div class="pillar pillar-brain fade-in">
+        <div class="pillar-label">
+          <div class="pillar-icon">🧠</div>
+          <p class="pillar-word">脑</p>
+          <p class="pillar-desc">设计师的脑 · 跨行业视野</p>
         </div>
-        <div class="about-text">
-          <p>
-            你好！我是 <strong>Your Name</strong>，一名专注于
-            <strong>品牌设计与数字营销</strong> 的创意专业人士。
-          </p>
-          <p>
-            我相信好的设计能够改变用户体验，帮助品牌建立真实的连接。
-            无论是从零开始的品牌塑造，还是现有业务的数字化升级，
-            我都能提供专业的解决方案。
-          </p>
-          <p>
-            拥有超过 <strong>5 年</strong>行业经验，服务过
-            <strong>50+</strong> 国内外客户，期待与你合作！
-          </p>
+        <div class="pillar-body">
+          <h3>多行业产品设计经验</h3>
+          <ul>
+            <li>横跨金融、医疗、公安、通信等行业</li>
+            <li>主导国家级 / 区域级复杂系统产品设计</li>
+            <li>多行业痛点洞察，快速迁移到 AI 应用场景</li>
+          </ul>
+        </div>
+        <div class="pillar-tags">
+          <p class="tag-title">覆盖行业</p>
+          <div class="tags">
+            <span>金融</span><span>医疗</span><span>公安</span>
+            <span>通信</span><span>互联网</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 手 -->
+      <div class="pillar pillar-hand fade-in">
+        <div class="pillar-label">
+          <div class="pillar-icon">🤝</div>
+          <p class="pillar-word">手</p>
+          <p class="pillar-desc">实战派的手 · 落地与审美</p>
+        </div>
+        <div class="pillar-body">
+          <h3>传统企业组织转型有体感</h3>
+          <ul>
+            <li>深度体感传统组织的协作痛点与效率瓶颈</li>
+            <li>AI 转型路径具体实感，拒绝空谈方法论</li>
+            <li>10 年+ UX 经验，AI 输出兼顾审美与品牌感</li>
+          </ul>
+        </div>
+        <div class="pillar-tags">
+          <p class="tag-title">核心能力</p>
+          <div class="tags">
+            <span>AI 自动化工作流</span><span>AI 实操细节</span><span>品牌审美</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 心 -->
+      <div class="pillar pillar-heart fade-in">
+        <div class="pillar-label">
+          <div class="pillar-icon">❤️</div>
+          <p class="pillar-word">心</p>
+          <p class="pillar-desc">引导师的心 · 动力与共创</p>
+        </div>
+        <div class="pillar-body">
+          <h3>场域引导与落地执行</h3>
+          <ul>
+            <li>企业会议引导多工具实践</li>
+            <li>驱动团队从被动接受转向主动共创</li>
+            <li>项目学习引导，重建内驱力</li>
+          </ul>
+        </div>
+        <div class="pillar-tags">
+          <p class="tag-title">擅长场景</p>
+          <div class="tags">
+            <span>企业工作坊</span><span>变革引导</span><span>动力激发</span>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- 服务 -->
-  <section class="section section-alt" id="services">
+  <!-- 能力象限 -->
+  <section class="section section-alt" id="quadrant">
     <div class="container">
-      <h2 class="section-title">我的服务</h2>
-      <p class="section-sub">专业、高效、以结果为导向</p>
-      <div class="services-grid">
-        <div class="service-card">
-          <div class="service-icon">🎨</div>
-          <h3>品牌视觉设计</h3>
-          <p>Logo 设计、品牌色彩体系、视觉规范手册，帮助你的品牌建立一致的视觉语言。</p>
+      <h2 class="section-title">AI 培训师能力象限</h2>
+      <p class="section-sub">找准生态位，做不可替代的那一个</p>
+      <div class="quadrant-wrap fade-in">
+        <div class="q-axis-y"><span>高</span><span>引导与人性洞察</span><span>低</span></div>
+        <div class="quadrant-grid">
+          <div class="q-cell q-a">
+            <div class="q-icon">📋</div>
+            <p class="q-name">企业培训引导师</p>
+            <p class="q-label">象限 A</p>
+          </div>
+          <div class="q-cell q-star">
+            <span class="star">★</span>
+            <div class="q-icon">🏆</div>
+            <p class="q-name"><strong>三合一 AI 培训师</strong></p>
+            <p class="q-label">你的生态位</p>
+          </div>
+          <div class="q-cell q-d">
+            <div class="q-icon">📄</div>
+            <p class="q-name">普通讲师</p>
+            <p class="q-label">象限 D</p>
+          </div>
+          <div class="q-cell q-b">
+            <div class="q-icon">⚙️</div>
+            <p class="q-name">技术专家</p>
+            <p class="q-label">象限 B</p>
+          </div>
         </div>
-        <div class="service-card">
-          <div class="service-icon">🌐</div>
-          <h3>网站设计与开发</h3>
-          <p>响应式网站设计与前端开发，兼顾美观与性能，提升用户体验与转化率。</p>
-        </div>
-        <div class="service-card">
-          <div class="service-icon">📱</div>
-          <h3>社交媒体运营</h3>
-          <p>内容策略、视觉素材制作、数据分析，帮助品牌在社交平台获得持续增长。</p>
-        </div>
-        <div class="service-card">
-          <div class="service-icon">📊</div>
-          <h3>数字营销咨询</h3>
-          <p>市场调研、竞品分析、增长策略规划，以数据驱动的方式帮助业务突破瓶颈。</p>
-        </div>
+        <div class="q-axis-x"><span>低</span><span>逻辑与系统构建</span><span>高</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 核心价值对比 -->
+  <section class="section" id="compare">
+    <div class="container">
+      <h2 class="section-title">核心价值对比</h2>
+      <p class="section-sub">让团队不仅学会 AI 工具，更能产出可落地的业务成果；<br />让 AI 真正成为组织的「外骨骼」，而非焦虑的来源</p>
+      <div class="compare-table fade-in">
+        <table>
+          <thead>
+            <tr>
+              <th></th>
+              <th>其他 AI 培训师</th>
+              <th class="th-highlight">三合一 AI 培训师</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="row-icon">🎯</span> 核心定位</td>
+              <td>工具教学者</td>
+              <td class="td-highlight">赋能教练与架构师</td>
+            </tr>
+            <tr>
+              <td><span class="row-icon">📖</span> 教学重点</td>
+              <td>功能操作、话术模板</td>
+              <td class="td-highlight"><strong>逻辑建模、系统闭环</strong></td>
+            </tr>
+            <tr>
+              <td><span class="row-icon">👥</span> 教学方式</td>
+              <td>单向输出</td>
+              <td class="td-highlight"><strong>共创引导、场景实战</strong></td>
+            </tr>
+            <tr>
+              <td><span class="row-icon">🎯</span> 解决问题</td>
+              <td>教会工具怎么用</td>
+              <td class="td-highlight"><strong>解决业务怎么用好</strong></td>
+            </tr>
+            <tr>
+              <td><span class="row-icon">⚡</span> 底层驱动</td>
+              <td>技术驱动</td>
+              <td class="td-highlight"><strong>设计 × 落地 × 人性三位一体</strong></td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   </section>
 
   <!-- 联系方式 -->
-  <section class="section" id="contact">
+  <section class="section section-alt" id="contact">
     <div class="container">
       <h2 class="section-title">联系我</h2>
-      <p class="section-sub">有项目想聊？欢迎随时联系</p>
+      <p class="section-sub">有培训合作、AI 转型咨询需求？欢迎直接联系</p>
       <div class="contact-grid">
-        <div class="contact-item">
+        <a class="contact-item fade-in" href="tel:15958037997">
+          <span class="contact-icon">📞</span>
+          <div>
+            <p class="contact-label">电话 / 微信</p>
+            <p>159 5803 7997</p>
+          </div>
+        </a>
+        <a class="contact-item fade-in" href="mailto:leishimin@gmail.com">
           <span class="contact-icon">✉️</span>
           <div>
             <p class="contact-label">邮箱</p>
-            <a href="mailto:hello@yourname.com">hello@yourname.com</a>
+            <p>leishimin@gmail.com</p>
           </div>
-        </div>
-        <div class="contact-item">
+        </a>
+        <div class="contact-item fade-in">
           <span class="contact-icon">💬</span>
           <div>
-            <p class="contact-label">微信</p>
-            <p>yourwechatid</p>
+            <p class="contact-label">微信号</p>
+            <p>iamhere365</p>
           </div>
         </div>
-        <div class="contact-item">
-          <span class="contact-icon">🔗</span>
+        <a class="contact-item fade-in" href="https://www.3rdedu.cn/" target="_blank">
+          <span class="contact-icon">🌐</span>
           <div>
-            <p class="contact-label">LinkedIn</p>
-            <a href="https://linkedin.com/in/yourname" target="_blank">linkedin.com/in/yourname</a>
+            <p class="contact-label">官网</p>
+            <p>www.3rdedu.cn</p>
           </div>
-        </div>
-        <div class="contact-item">
-          <span class="contact-icon">📍</span>
-          <div>
-            <p class="contact-label">所在城市</p>
-            <p>上海，中国</p>
-          </div>
-        </div>
+        </a>
       </div>
     </div>
   </section>
 
-  <!-- 页脚 -->
   <footer class="footer">
-    <p>© 2026 Your Name · 保留所有权利</p>
+    <p>© 2026 雷世民 · Ray &nbsp;·&nbsp; AI+教育+商业</p>
   </footer>
 
   <script src="main.js"></script>
